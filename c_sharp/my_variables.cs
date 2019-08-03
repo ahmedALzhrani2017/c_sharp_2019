@@ -56,7 +56,7 @@ namespace c_sharp
             Console.WriteLine(char.MaxValue);
             Console.WriteLine(sizeof(char) + " byte");
             Console.WriteLine("##################################################");
-
+            Console.WriteLine("##################################################");
         }
     }
 }
