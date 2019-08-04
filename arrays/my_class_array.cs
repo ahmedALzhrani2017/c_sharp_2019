@@ -22,11 +22,7 @@ namespace c_sharp
             array_number[2] =3;
             Console.WriteLine(array_number[2]);
 
-            object[] op_array = new object[3];
-            op_array[0] = 'A';
-            op_array[1] = "ahmed";
-            op_array[2] = 20;
-            Console.WriteLine(op_array[2]);
+           
 
             int lenhth_array = Convert.ToInt32(Console.ReadLine());
             string[] arr_1 = new string[lenhth_array];

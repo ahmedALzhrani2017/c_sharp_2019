@@ -5,11 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace c_sharp
-
 {
-    
 
-    class ConsoleApp1
+    class Program
     {
         static void Main(string[] args)
         {
@@ -40,7 +38,6 @@ namespace c_sharp
             //Console.WriteLine("##################################################");
             //my_enum.print_my_enum();
             my_variables.print_variables();
-            
 
 
 
@@ -48,13 +45,13 @@ namespace c_sharp
 
 
 
-           
+
+
 
 
 
 
             Console.ReadKey();
         }
-    } 
-
+    }
 }

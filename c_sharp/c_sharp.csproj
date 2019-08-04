@@ -44,10 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="my_convert.cs" />
-    <Compile Include="ConsoleApp1.cs" />
     <Compile Include="my_enum.cs" />
     <Compile Include="my_variables.cs" />
     <Compile Include="operators.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="data types.cs" />
     <Compile Include="Statements.cs" />
