@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keywords", "Keywords\Keywor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "date_time", "date_time\date_time.csproj", "{8AE2DC85-5B79-4786-BA40-54EA9147CD69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays", "arrays\arrays.csproj", "{8CD8DDB8-4F20-4943-8665-DB8528E9B341}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{8AE2DC85-5B79-4786-BA40-54EA9147CD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AE2DC85-5B79-4786-BA40-54EA9147CD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AE2DC85-5B79-4786-BA40-54EA9147CD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD8DDB8-4F20-4943-8665-DB8528E9B341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD8DDB8-4F20-4943-8665-DB8528E9B341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD8DDB8-4F20-4943-8665-DB8528E9B341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD8DDB8-4F20-4943-8665-DB8528E9B341}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

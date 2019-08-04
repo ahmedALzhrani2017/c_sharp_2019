@@ -10,6 +10,16 @@ namespace date_time
     {
         static void Main(string[] args)
         {
+            //my_class_data.my_function_date();
+
+
+            string xx = "ahmed";
+            int id = 120;
+            Console.WriteLine(xx);
+            Console.WriteLine(id);
+
+            Console.ReadKey();
+
         }
     }
 }

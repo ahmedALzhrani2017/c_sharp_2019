@@ -8,7 +8,7 @@ namespace date_time
 {
     class my_class_data
     {
-        public void my_function_date()
+        public static void my_function_date()
         {
             Console.WriteLine(DateTime.Now);
 

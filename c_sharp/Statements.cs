@@ -9,29 +9,7 @@ namespace c_sharp
     class Statements
 
     {
-        public string all_Statements()
-
-        {
-            Console.WriteLine("            ----Statements----");
-            Console.WriteLine("Expression statemen");
-            Console.WriteLine("if statement");
-            Console.WriteLine("switch statement");
-            Console.WriteLine("while statement");
-            Console.WriteLine("do statemen");
-            Console.WriteLine("for statement");
-            Console.WriteLine("foreach statemen");
-            Console.WriteLine("break statement");
-            Console.WriteLine("continue statement");
-            Console.WriteLine("goto statement");
-            Console.WriteLine("return statement");
-            Console.WriteLine("yield statement");
-            Console.WriteLine("throw statements and try statements}");
-            Console.WriteLine("checked and unchecked statements");
-            Console.WriteLine("lock statement");
-            Console.WriteLine("using statement");
-            Console.WriteLine("---------------------if statement----------------------");
-            return "";
-        }
+       
         public void my_if()
         {
             if (true)

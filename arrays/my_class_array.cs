@@ -6,19 +6,15 @@ using System.Threading.Tasks;
 
 namespace c_sharp
 {
-    class arrays
+    class my_class_array
     {
 
 
 
 
-        public void my_array_1()
+        public void my_function_array_number()
         {
-            string[] arr = new string[3];
-            arr[0] = "ahmed";
-            arr[1] = "hassan";
-            arr[2] = "AHMED";
-            Console.WriteLine(arr[2]);
+            
 
             int[] array_number = new int[3];
             array_number[0] =1;
@@ -67,8 +63,27 @@ namespace c_sharp
             }
 
         }
+        public void my_function_array_string()
+        {
+
+            string[] arr = new string[3];
+            arr[0] = "ahmed";
+            arr[1] = "hassan";
+            arr[2] = "AHMED";
+            Console.WriteLine(arr[2]);
+
+        }
+       
+            public void my_function_array_object ()
+        {
+            object[] op_array = new object[3];
+            op_array[0] = 'A';
+            op_array[1] = "ahmed";
+            op_array[2] = 20;
+            Console.WriteLine(op_array[2]);
 
 
+        }
 
 
 

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E1108B47-7CC6-4B0C-B9C8-0B4629FEBFF1}</ProjectGuid>
+    <ProjectGuid>{8CD8DDB8-4F20-4943-8665-DB8528E9B341}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>c_sharp</RootNamespace>
-    <AssemblyName>c_sharp</AssemblyName>
+    <RootNamespace>arrays</RootNamespace>
+    <AssemblyName>arrays</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="my_convert.cs" />
-    <Compile Include="ConsoleApp1.cs" />
-    <Compile Include="my_enum.cs" />
-    <Compile Include="my_variables.cs" />
-    <Compile Include="operators.cs" />
+    <Compile Include="my_class_array.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="data types.cs" />
-    <Compile Include="Statements.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

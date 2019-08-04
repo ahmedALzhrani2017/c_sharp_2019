@@ -20,44 +20,31 @@ namespace c_sharp
         public void Arithmetic()
         {
             int i = 3;
-            Console.WriteLine(i);   // output: 3
-            Console.WriteLine(i++); // output: 3
-            Console.WriteLine(i);   // output: 4
-            Console.WriteLine(i);   // output: 3
-            Console.WriteLine(i--); // output: 3
-            Console.WriteLine(i);   // output: 2
+            Console.WriteLine("int i = 3;");
+            Console.WriteLine("i=3              output:  " + i);   // output: 3
+            Console.WriteLine("i++=3 >    i=4   output:  " + i++); // output: 3
+            Console.WriteLine("i not=3    i=4   output:  " + i);   // output:  4
+            Console.WriteLine("**************************************");
+            int ii = 3;
+            Console.WriteLine("int ii = 3;");
+            Console.WriteLine("ii=3              output:  " + ii);   // output: 3
+            Console.WriteLine("++ii=1+ii > i=4   output:  " + ++ii); // output: 4
+            Console.WriteLine("ii =3             output:  " + ii); // output:  4
 
-            double a = 1.5;
-            Console.WriteLine(a);   // output: 1.5
-            Console.WriteLine(++a); // output: 2.5
-            Console.WriteLine(a);   // output: 2.5
-            Console.WriteLine(a);   // output: 1.5
-            Console.WriteLine(--a); // output: 0.5
-            Console.WriteLine(a);   // output: 0.5
 
             Console.WriteLine(5 * 2);         // output: 10
             Console.WriteLine(0.5 * 2.5);     // output: 1.25
             Console.WriteLine(0.1m * 23.4m);  // output: 2.34
 
-            Console.WriteLine(13 / 5);    // output: 2
-            Console.WriteLine(-13 / 5);   // output: -2
-            Console.WriteLine(13 / -5);   // output: -2
-            Console.WriteLine(-13 / -5);  // output: 2
-
+            Console.WriteLine(13 / 5);    // output: 2           
+            Console.WriteLine(13 / (double)5);  // output: 2.6
             Console.WriteLine(13 / 5.0);       // output: 2.6
-            int aa = 13;
-            int bb = 5;
-            Console.WriteLine((double)aa / bb);  // output: 2.6
 
             Console.WriteLine(16.8f / 4.1f);   // output: 4.097561
             Console.WriteLine(16.8d / 4.1d);   // output: 4.09756097560976
             Console.WriteLine(16.8m / 4.1m);   // output: 4.0975609756097560975609756098
 
-            Console.WriteLine(5 % 4);   // output: 1
-            Console.WriteLine(5 % -4);  // output: 1
-            Console.WriteLine(-5 % 4);  // output: -1
-            Console.WriteLine(-5 % -4); // output: -1
-
+            Console.WriteLine(5 % 4);   // output: 1           
             Console.WriteLine(-5.2f % 2.0f); // output: -1.2
             Console.WriteLine(5.9 % 3.1);    // output: 2.8
             Console.WriteLine(5.9m % 3.1m);  // output: 2.8
