@@ -9,13 +9,7 @@ namespace function
     class Program
 
     {
-        public static void f(Func<int> myfunction)
-        {
-
-            myfunction();
-
-        }
-
+        
 
         static void Main(string[] args)
         {
@@ -43,13 +37,17 @@ namespace function
             //get_1._NAME = "ahmed";
             //get_1._SALARY = 2500;
             //get_1.print();
+            //Console.WriteLine("*********************************************************");
+            ////my_Parameters parameters_1 = new my_Parameters();
+            //parameters_1.sum(2,3);                          
             Console.WriteLine("*********************************************************");
-            //my_Parameters parameters_1 = new my_Parameters();
-            //parameters_1.sum(2,3);
-            Program.f(g);
-                
-            Console.WriteLine("*********************************************************");
-            
+            my_class_random.my_function_random_number();
+            my_class_random.my_function_random_day();
+            my_class_random.my_function_random_Month();
+            my_class_random.my_function_random_year();
+            my_class_random.my_function_random_day_Month_Year();
+
+
 
 
             Console.ReadKey();
@@ -57,11 +55,7 @@ namespace function
 
         }
 
-       static int g()
-        {
-            Console.WriteLine("gggggg");
-            return 0;
-        }
+       
        
     }
 }

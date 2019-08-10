@@ -13,16 +13,7 @@ namespace function
             Console.WriteLine("my_function");
 
         }
-        public void my_random()
-        {
-            Random rnum = new Random();
-
-            int x = 0;
-
-            x = rnum.Next(1, 9999);
-            Console.WriteLine(x);
-
-        }
+       
         public void fun_ref(ref int num)
         {
             num = 10;

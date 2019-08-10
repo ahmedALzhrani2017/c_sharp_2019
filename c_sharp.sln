@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "date_time", "date_time\date
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays", "arrays\arrays.csproj", "{8CD8DDB8-4F20-4943-8665-DB8528E9B341}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "my_strimg", "my_strimg\my_strimg.csproj", "{882546A9-670E-4585-8680-49982F763EE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{8CD8DDB8-4F20-4943-8665-DB8528E9B341}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CD8DDB8-4F20-4943-8665-DB8528E9B341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CD8DDB8-4F20-4943-8665-DB8528E9B341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{882546A9-670E-4585-8680-49982F763EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{882546A9-670E-4585-8680-49982F763EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{882546A9-670E-4585-8680-49982F763EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{882546A9-670E-4585-8680-49982F763EE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

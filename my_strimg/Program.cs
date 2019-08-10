@@ -4,19 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace date_time
+namespace my_strimg
 {
     class Program
     {
         static void Main(string[] args)
         {
-           //my_class_data.my_function_date();
-           my_class_data.my_function_date_3();
 
-            
-
-            Console.ReadKey();
-
+            my_class_string.my_function_string_format();
+            Console.ReadLine();
         }
     }
 }

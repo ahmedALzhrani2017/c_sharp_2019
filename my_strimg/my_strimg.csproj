@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E3BEF0C3-637E-47FE-90C8-725A00914DF2}</ProjectGuid>
+    <ProjectGuid>{882546A9-670E-4585-8680-49982F763EE5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>function</RootNamespace>
-    <AssemblyName>function</AssemblyName>
+    <RootNamespace>my_strimg</RootNamespace>
+    <AssemblyName>my_strimg</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="my_class_random.cs" />
-    <Compile Include="my_get_set.cs" />
-    <Compile Include="my_Overloading.cs" />
-    <Compile Include="my_function.cs" />
-    <Compile Include="my_Parameters.cs" />
+    <Compile Include="my_class_string.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
