@@ -10,10 +10,10 @@ namespace date_time
     {
         static void Main(string[] args)
         {
-           //my_class_data.my_function_date();
-           my_class_data.my_function_date_3();
-
-            
+          my_class_data.my_function_date_1();
+          my_class_data.my_function_date_2();
+          my_class_data.my_function_date_3();
+          my_class_data.my_function_date_4();
 
             Console.ReadKey();
 
