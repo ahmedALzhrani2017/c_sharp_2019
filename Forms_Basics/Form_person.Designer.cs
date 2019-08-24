@@ -36,6 +36,7 @@
             this.butt_combo_box = new System.Windows.Forms.Button();
             this.but_save_File = new System.Windows.Forms.Button();
             this.but_Radio = new System.Windows.Forms.Button();
+            this.but_track_bar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // but_NumericUpDown
@@ -118,11 +119,22 @@
             this.but_Radio.UseVisualStyleBackColor = true;
             this.but_Radio.Click += new System.EventHandler(this.But_Radio_Click);
             // 
+            // but_track_bar
+            // 
+            this.but_track_bar.Location = new System.Drawing.Point(12, 109);
+            this.but_track_bar.Name = "but_track_bar";
+            this.but_track_bar.Size = new System.Drawing.Size(140, 23);
+            this.but_track_bar.TabIndex = 8;
+            this.but_track_bar.Text = "Track Bar ";
+            this.but_track_bar.UseVisualStyleBackColor = true;
+            this.but_track_bar.Click += new System.EventHandler(this.But_track_bar_Click);
+            // 
             // Form_person
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(666, 588);
+            this.Controls.Add(this.but_track_bar);
             this.Controls.Add(this.but_Radio);
             this.Controls.Add(this.but_save_File);
             this.Controls.Add(this.butt_combo_box);
@@ -147,6 +159,7 @@
         private System.Windows.Forms.Button butt_combo_box;
         private System.Windows.Forms.Button but_save_File;
         private System.Windows.Forms.Button but_Radio;
+        private System.Windows.Forms.Button but_track_bar;
     }
 }
 

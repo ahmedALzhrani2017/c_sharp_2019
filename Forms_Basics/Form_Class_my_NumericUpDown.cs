@@ -17,6 +17,9 @@ namespace Forms_Basics
             InitializeComponent();
         }
 
-       
+        private void NumericUpDown3_ValueChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show(numericUpDown3.Value.ToString());
+        }
     }
 }

@@ -64,6 +64,12 @@
     <Compile Include="Form_Class_my_Radio_Button.Designer.cs">
       <DependentUpon>Form_Class_my_Radio_Button.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_class_my_trck_bar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_class_my_trck_bar.Designer.cs">
+      <DependentUpon>Form_class_my_trck_bar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Class_Open_File_Dialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_class_my_save_File_Dialog.resx">
       <DependentUpon>Form_class_my_save_File_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_class_my_trck_bar.resx">
+      <DependentUpon>Form_class_my_trck_bar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Class_Open_File_Dialog.resx">
       <DependentUpon>Form_Class_Open_File_Dialog.cs</DependentUpon>

@@ -85,10 +85,16 @@
             // 
             this.numericUpDown3.Hexadecimal = true;
             this.numericUpDown3.Location = new System.Drawing.Point(12, 86);
+            this.numericUpDown3.Maximum = new decimal(new int[] {
+            255,
+            0,
+            0,
+            0});
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown3.TabIndex = 10;
             this.numericUpDown3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.numericUpDown3.ValueChanged += new System.EventHandler(this.NumericUpDown3_ValueChanged);
             // 
             // numericUpDown2
             // 
@@ -108,7 +114,7 @@
             this.numericUpDown1.TabIndex = 8;
             this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // my_NumericUpDown
+            // Form_Class_my_NumericUpDown
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -120,9 +126,8 @@
             this.Controls.Add(this.numericUpDown3);
             this.Controls.Add(this.numericUpDown2);
             this.Controls.Add(this.numericUpDown1);
-            this.Name = "my_NumericUpDown";
+            this.Name = "Form_Class_my_NumericUpDown";
             this.Text = "my_NumericUpDown";
-            
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();

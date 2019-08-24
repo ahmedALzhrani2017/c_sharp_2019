@@ -17,7 +17,7 @@ namespace Forms_Basics
             InitializeComponent();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void button1_checked_Click(object sender, EventArgs e)
         {
             if (radioButton1_male.Checked)
             {
@@ -25,7 +25,6 @@ namespace Forms_Basics
             }
             else
             {
-
                 MessageBox.Show("it is famele");
             }
         }

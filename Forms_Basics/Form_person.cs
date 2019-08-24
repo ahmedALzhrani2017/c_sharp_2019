@@ -65,5 +65,11 @@ namespace Forms_Basics
             Form_Class_my_Radio_Button show_My_Radio_Button = new Form_Class_my_Radio_Button();
             show_My_Radio_Button.ShowDialog();
         }
+
+        private void But_track_bar_Click(object sender, EventArgs e)
+        {
+            Form_class_my_trck_bar show_my_Trck_Bar = new Form_class_my_trck_bar();
+            show_my_Trck_Bar.ShowDialog();
+        }
     }
 }

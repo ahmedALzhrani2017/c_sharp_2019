@@ -25,8 +25,7 @@ namespace c_sharp
             string string_number = "2";
             int convert_string_to_number = Convert.ToInt32(string_number);
             Console.WriteLine(convert_string_to_number);
-        }
-        
+        }        
         public static void Casting_type()
         {
             double b_1 = 201.7;

@@ -46,10 +46,9 @@ namespace arrays
         }
         public static void my_function_array_string_to_char()
         {
-            string string_to_char = "ahmed";
-            char[] char_N;
-            char_N = string_to_char.ToCharArray();
-            Console.WriteLine(char_N);
+            string my_string = "ahmed";
+            char[] string_to_char= my_string.ToCharArray();       
+            Console.WriteLine(string_to_char);
         }
         public static void my_function_array_string()
         {
