@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forms_Basics", "Forms_Basic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z_my_test", "Z_my_test\Z_my_test.csproj", "{8692924C-5EA4-4E3C-B2ED-DB52699EC331}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forms_MULTI _INTERFACE", "Forms_MULTI _INTERFACE\Forms_MULTI _INTERFACE.csproj", "{EB2DBDB0-1E8D-49BD-BE21-D9A69B87281E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{8692924C-5EA4-4E3C-B2ED-DB52699EC331}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8692924C-5EA4-4E3C-B2ED-DB52699EC331}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8692924C-5EA4-4E3C-B2ED-DB52699EC331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2DBDB0-1E8D-49BD-BE21-D9A69B87281E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2DBDB0-1E8D-49BD-BE21-D9A69B87281E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2DBDB0-1E8D-49BD-BE21-D9A69B87281E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2DBDB0-1E8D-49BD-BE21-D9A69B87281E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

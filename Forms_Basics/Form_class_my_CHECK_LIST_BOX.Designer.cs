@@ -152,8 +152,10 @@
             this.Controls.Add(this.checkedListBox3);
             this.Controls.Add(this.checkedListBox2);
             this.Controls.Add(this.checkedListBox1);
+            this.IsMdiContainer = true;
             this.Name = "Form_class_my_CHECK_LIST_BOX";
             this.Text = "Form_class_my_CHECK_LIST_BOX";
+           
             this.ResumeLayout(false);
             this.PerformLayout();
 

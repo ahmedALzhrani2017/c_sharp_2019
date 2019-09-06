@@ -103,9 +103,11 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(261, 116);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(2, 27);
+            this.label7.Size = new System.Drawing.Size(50, 27);
             this.label7.TabIndex = 10;
+            this.label7.Text = "000";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            
             // 
             // numericUpDown3
             // 
@@ -145,6 +147,7 @@
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(84, 20);
             this.numericUpDown1.TabIndex = 9;
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.NumericUpDown1_ValueChanged);
             // 
             // textBox3
             // 
@@ -173,7 +176,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(76, 31);
             this.textBox1.TabIndex = 6;
-            this.textBox1.Text = "0";
+            this.textBox1.Text = "00";
             this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // label5

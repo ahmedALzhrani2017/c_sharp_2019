@@ -71,5 +71,23 @@ namespace Forms_Basics
             Form_class_my_trck_bar show_my_Trck_Bar = new Form_class_my_trck_bar();
             show_my_Trck_Bar.ShowDialog();
         }
+
+        private void But_textbox_Click(object sender, EventArgs e)
+        {
+            Form_class_my_textBox show_my_TextBox = new Form_class_my_textBox();
+            show_my_TextBox.ShowDialog();
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            Form_class_my_label shpw_my_Label = new Form_class_my_label();
+            shpw_my_Label.ShowDialog();
+        }
+
+        private void Button1_Click_1(object sender, EventArgs e)
+        {
+            Form_class_my_DATATIME show_my_DATATIME = new Form_class_my_DATATIME();
+            show_my_DATATIME.ShowDialog();
+        }
     }
 }

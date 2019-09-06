@@ -28,7 +28,10 @@ namespace WindowsFormsApp1
             using (StreamWriter sw1 = new StreamWriter("a1.txt"))
             {
                 sw1.WriteLine(richTextBox1.Text);
+                
             }
         }
+
+        
     }
 }

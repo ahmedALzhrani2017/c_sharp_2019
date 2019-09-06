@@ -8,14 +8,53 @@ namespace my_strimg
 {
     class my_class_string
     {
-        public static void my_function_string_format()
-        {
-            string id = "115";
-            string name = "ahmed";
-            string last_name = "al zahrani";
-            Console.WriteLine("id\t{0}\nneme\t{1}\nlastnema{2}",id,name,last_name);
-        }
         
+        public static void UPPER_LOWER()
+        {
+            string st_1 = "AAAAAAAAAAA";
+            Console.WriteLine(st_1.ToLower());
+            string st_2 = "bbbbbbbbbbbb";
+            Console.WriteLine(st_2.ToUpper());
+
+
+        }
+        public static void max_length()
+        {
+            string inter_nema = Console.ReadLine();
+            
+            if(inter_nema.Length<10)
+            {
+                Console.WriteLine("welcom");
+            }
+            else
+            {
+                Console.WriteLine("invalid name");
+
+            }
+
+        }
+        public static void SUB_STRING()
+        {
+            string x = "ahmed";
+            Console.WriteLine(x.Substring(2));
+            Console.WriteLine(x.Substring(0,3));
+
+        }
+        public static void SPLIT_STRING()
+        {
+            string x = "ahmxed";
+            string[] y = x.Split('x');
+            
+           
+            foreach (string s  in y)
+            {
+
+                   Console.WriteLine(s);
+            }
+           
+
+
+        }
     }
     
 }

@@ -37,6 +37,9 @@
             this.but_save_File = new System.Windows.Forms.Button();
             this.but_Radio = new System.Windows.Forms.Button();
             this.but_track_bar = new System.Windows.Forms.Button();
+            this.but_textbox = new System.Windows.Forms.Button();
+            this.butt_label = new System.Windows.Forms.Button();
+            this.but_data_time = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // but_NumericUpDown
@@ -63,7 +66,7 @@
             // 
             this.but_Timer.Location = new System.Drawing.Point(333, 24);
             this.but_Timer.Name = "but_Timer";
-            this.but_Timer.Size = new System.Drawing.Size(95, 23);
+            this.but_Timer.Size = new System.Drawing.Size(109, 23);
             this.but_Timer.TabIndex = 2;
             this.but_Timer.Text = "Timer";
             this.but_Timer.UseVisualStyleBackColor = true;
@@ -81,7 +84,7 @@
             // 
             // but_CHECK_LIST_BOX
             // 
-            this.but_CHECK_LIST_BOX.Location = new System.Drawing.Point(12, 65);
+            this.but_CHECK_LIST_BOX.Location = new System.Drawing.Point(12, 53);
             this.but_CHECK_LIST_BOX.Name = "but_CHECK_LIST_BOX";
             this.but_CHECK_LIST_BOX.Size = new System.Drawing.Size(140, 23);
             this.but_CHECK_LIST_BOX.TabIndex = 4;
@@ -91,7 +94,7 @@
             // 
             // butt_combo_box
             // 
-            this.butt_combo_box.Location = new System.Drawing.Point(158, 65);
+            this.butt_combo_box.Location = new System.Drawing.Point(158, 53);
             this.butt_combo_box.Name = "butt_combo_box";
             this.butt_combo_box.Size = new System.Drawing.Size(169, 23);
             this.butt_combo_box.TabIndex = 5;
@@ -101,7 +104,7 @@
             // 
             // but_save_File
             // 
-            this.but_save_File.Location = new System.Drawing.Point(448, 64);
+            this.but_save_File.Location = new System.Drawing.Point(448, 52);
             this.but_save_File.Name = "but_save_File";
             this.but_save_File.Size = new System.Drawing.Size(132, 23);
             this.but_save_File.TabIndex = 6;
@@ -111,7 +114,7 @@
             // 
             // but_Radio
             // 
-            this.but_Radio.Location = new System.Drawing.Point(333, 65);
+            this.but_Radio.Location = new System.Drawing.Point(333, 53);
             this.but_Radio.Name = "but_Radio";
             this.but_Radio.Size = new System.Drawing.Size(109, 23);
             this.but_Radio.TabIndex = 7;
@@ -121,7 +124,7 @@
             // 
             // but_track_bar
             // 
-            this.but_track_bar.Location = new System.Drawing.Point(12, 109);
+            this.but_track_bar.Location = new System.Drawing.Point(12, 82);
             this.but_track_bar.Name = "but_track_bar";
             this.but_track_bar.Size = new System.Drawing.Size(140, 23);
             this.but_track_bar.TabIndex = 8;
@@ -129,11 +132,44 @@
             this.but_track_bar.UseVisualStyleBackColor = true;
             this.but_track_bar.Click += new System.EventHandler(this.But_track_bar_Click);
             // 
+            // but_textbox
+            // 
+            this.but_textbox.Location = new System.Drawing.Point(158, 82);
+            this.but_textbox.Name = "but_textbox";
+            this.but_textbox.Size = new System.Drawing.Size(169, 23);
+            this.but_textbox.TabIndex = 9;
+            this.but_textbox.Text = "textBox";
+            this.but_textbox.UseVisualStyleBackColor = true;
+            this.but_textbox.Click += new System.EventHandler(this.But_textbox_Click);
+            // 
+            // butt_label
+            // 
+            this.butt_label.Location = new System.Drawing.Point(333, 82);
+            this.butt_label.Name = "butt_label";
+            this.butt_label.Size = new System.Drawing.Size(109, 23);
+            this.butt_label.TabIndex = 10;
+            this.butt_label.Text = "label";
+            this.butt_label.UseVisualStyleBackColor = true;
+            this.butt_label.Click += new System.EventHandler(this.Button1_Click);
+            // 
+            // but_data_time
+            // 
+            this.but_data_time.Location = new System.Drawing.Point(448, 81);
+            this.but_data_time.Name = "but_data_time";
+            this.but_data_time.Size = new System.Drawing.Size(132, 23);
+            this.but_data_time.TabIndex = 11;
+            this.but_data_time.Text = "DATA_TIME";
+            this.but_data_time.UseVisualStyleBackColor = true;
+            this.but_data_time.Click += new System.EventHandler(this.Button1_Click_1);
+            // 
             // Form_person
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(666, 588);
+            this.Controls.Add(this.but_data_time);
+            this.Controls.Add(this.butt_label);
+            this.Controls.Add(this.but_textbox);
             this.Controls.Add(this.but_track_bar);
             this.Controls.Add(this.but_Radio);
             this.Controls.Add(this.but_save_File);
@@ -160,6 +196,9 @@
         private System.Windows.Forms.Button but_save_File;
         private System.Windows.Forms.Button but_Radio;
         private System.Windows.Forms.Button but_track_bar;
+        private System.Windows.Forms.Button but_textbox;
+        private System.Windows.Forms.Button butt_label;
+        private System.Windows.Forms.Button but_data_time;
     }
 }
 

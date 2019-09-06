@@ -58,17 +58,53 @@
     <Compile Include="Form_class_my_combo_box.Designer.cs">
       <DependentUpon>Form_class_my_combo_box.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_class_my_DATATIME.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_class_my_DATATIME.Designer.cs">
+      <DependentUpon>Form_class_my_DATATIME.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_class_my_label.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_class_my_label.Designer.cs">
+      <DependentUpon>Form_class_my_label.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_class_my_Progress_Bar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_class_my_Progress_Bar.Designer.cs">
+      <DependentUpon>Form_class_my_Progress_Bar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Class_my_Radio_Button.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_Class_my_Radio_Button.Designer.cs">
       <DependentUpon>Form_Class_my_Radio_Button.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_class_my_textBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_class_my_textBox.Designer.cs">
+      <DependentUpon>Form_class_my_textBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_class_my_trck_bar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_class_my_trck_bar.Designer.cs">
       <DependentUpon>Form_class_my_trck_bar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_class_my_TREE_VIEW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_class_my_TREE_VIEW.Designer.cs">
+      <DependentUpon>Form_class_my_TREE_VIEW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_class_my_Web_Browser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_class_my_Web_Browser.Designer.cs">
+      <DependentUpon>Form_class_my_Web_Browser.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Class_Open_File_Dialog.cs">
       <SubType>Form</SubType>
@@ -106,6 +142,12 @@
     <Compile Include="Form_Class_my_Timer.Designer.cs">
       <DependentUpon>Form_Class_my_Timer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Method\Cut_Copy_Paste_Undo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Method\Cut_Copy_Paste_Undo.Designer.cs">
+      <DependentUpon>Cut_Copy_Paste_Undo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form_class_my_CHECK_LIST_BOX.resx">
@@ -114,11 +156,20 @@
     <EmbeddedResource Include="Form_class_my_combo_box.resx">
       <DependentUpon>Form_class_my_combo_box.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_class_my_DATATIME.resx">
+      <DependentUpon>Form_class_my_DATATIME.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_class_my_label.resx">
+      <DependentUpon>Form_class_my_label.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Class_my_Radio_Button.resx">
       <DependentUpon>Form_Class_my_Radio_Button.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_class_my_save_File_Dialog.resx">
       <DependentUpon>Form_class_my_save_File_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_class_my_textBox.resx">
+      <DependentUpon>Form_class_my_textBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_class_my_trck_bar.resx">
       <DependentUpon>Form_class_my_trck_bar.cs</DependentUpon>
@@ -137,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Class_my_Timer.resx">
       <DependentUpon>Form_Class_my_Timer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Method\Cut_Copy_Paste_Undo.resx">
+      <DependentUpon>Cut_Copy_Paste_Undo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -164,5 +218,6 @@
   <ItemGroup>
     <None Include="Resources\c sharp.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

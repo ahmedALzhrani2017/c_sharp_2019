@@ -10,7 +10,15 @@ namespace Z_my_test
     {
         static void Main(string[] args)
         {
-            my_form_design.InputBox();
+            
+            for (int i = 0; i < 300; i++)
+            {
+                 Console.WriteLine(i.ToString("D4"));
+                
+            }
+            
+
+            Console.ReadKey();
         }
     }
 }
