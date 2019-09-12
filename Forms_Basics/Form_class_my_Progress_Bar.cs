@@ -16,5 +16,26 @@ namespace Forms_Basics
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i <=100; i++)
+            {
+                if (progressBar1.Value<100)
+                         {
+                    progressBar1.Value = i;
+                    MessageBox.Show(i.ToString());
+                                
+                }
+                
+            }
+           
+            
+        }
+
+        private void ProgressBar1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

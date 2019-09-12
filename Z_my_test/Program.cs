@@ -10,12 +10,12 @@ namespace Z_my_test
     {
         static void Main(string[] args)
         {
-            
-            for (int i = 0; i < 300; i++)
+            for (int i = 0; i < 100; i++)
             {
-                 Console.WriteLine(i.ToString("D4"));
-                
+           
+            Console.WriteLine(i);
             }
+            
             
 
             Console.ReadKey();

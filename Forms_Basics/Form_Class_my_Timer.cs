@@ -25,11 +25,22 @@ namespace Forms_Basics
 
         }
 
-        private void Form_Class_my_Timer_Load(object sender, EventArgs e)
+     
+
+        private void Button1_Click(object sender, EventArgs e)
         {
+            timer1.Start();
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            timer1.Stop();
 
         }
 
-        
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

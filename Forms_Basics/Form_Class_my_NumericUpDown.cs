@@ -21,5 +21,10 @@ namespace Forms_Basics
         {
             MessageBox.Show(numericUpDown3.Value.ToString());
         }
+
+        private void NumericUpDown2_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

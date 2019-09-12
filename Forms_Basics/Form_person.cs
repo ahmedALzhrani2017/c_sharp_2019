@@ -89,5 +89,30 @@ namespace Forms_Basics
             Form_class_my_DATATIME show_my_DATATIME = new Form_class_my_DATATIME();
             show_my_DATATIME.ShowDialog();
         }
+
+        private void But_DialogResult_Click(object sender, EventArgs e)
+        {
+            Form_class_my_dialogresult_message_show Show_Dialogresult_Message_Show = new Form_class_my_dialogresult_message_show();
+            Show_Dialogresult_Message_Show.ShowDialog();
+        }
+
+        private void Button1_Click_2(object sender, EventArgs e)
+        {
+            Form_class_my_Progress_Bar show_My_Progress_Bar = new Form_class_my_Progress_Bar();
+            show_My_Progress_Bar.ShowDialog();
+
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            Form_class_my_Masked_TextBox show_My_Masked_TextBox = new Form_class_my_Masked_TextBox();
+            show_My_Masked_TextBox.ShowDialog();
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            Form_class_my_toolTip show_My_ToolTip = new Form_class_my_toolTip();
+            show_My_ToolTip.ShowDialog();
+        }
     }
 }

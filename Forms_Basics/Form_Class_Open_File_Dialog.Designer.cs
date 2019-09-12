@@ -36,13 +36,15 @@
             this.textBox_extension = new System.Windows.Forms.TextBox();
             this.button_Choes_file = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label_Path
             // 
             this.label_Path.AutoSize = true;
             this.label_Path.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Path.Location = new System.Drawing.Point(12, 25);
+            this.label_Path.Location = new System.Drawing.Point(3, 6);
             this.label_Path.Name = "label_Path";
             this.label_Path.Size = new System.Drawing.Size(56, 25);
             this.label_Path.TabIndex = 0;
@@ -50,7 +52,7 @@
             // 
             // textBox_Path
             // 
-            this.textBox_Path.Location = new System.Drawing.Point(162, 30);
+            this.textBox_Path.Location = new System.Drawing.Point(153, 11);
             this.textBox_Path.Name = "textBox_Path";
             this.textBox_Path.Size = new System.Drawing.Size(334, 20);
             this.textBox_Path.TabIndex = 1;
@@ -59,7 +61,7 @@
             // 
             this.label_File_Name.AutoSize = true;
             this.label_File_Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_File_Name.Location = new System.Drawing.Point(12, 75);
+            this.label_File_Name.Location = new System.Drawing.Point(3, 56);
             this.label_File_Name.Name = "label_File_Name";
             this.label_File_Name.Size = new System.Drawing.Size(109, 25);
             this.label_File_Name.TabIndex = 2;
@@ -67,7 +69,7 @@
             // 
             // textBox_File_Name
             // 
-            this.textBox_File_Name.Location = new System.Drawing.Point(162, 75);
+            this.textBox_File_Name.Location = new System.Drawing.Point(153, 56);
             this.textBox_File_Name.Name = "textBox_File_Name";
             this.textBox_File_Name.Size = new System.Drawing.Size(334, 20);
             this.textBox_File_Name.TabIndex = 3;
@@ -76,7 +78,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 118);
+            this.label1.Location = new System.Drawing.Point(3, 99);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(105, 25);
             this.label1.TabIndex = 4;
@@ -84,14 +86,14 @@
             // 
             // textBox_extension
             // 
-            this.textBox_extension.Location = new System.Drawing.Point(162, 124);
+            this.textBox_extension.Location = new System.Drawing.Point(153, 105);
             this.textBox_extension.Name = "textBox_extension";
             this.textBox_extension.Size = new System.Drawing.Size(334, 20);
             this.textBox_extension.TabIndex = 5;
             // 
             // button_Choes_file
             // 
-            this.button_Choes_file.Location = new System.Drawing.Point(162, 184);
+            this.button_Choes_file.Location = new System.Drawing.Point(153, 165);
             this.button_Choes_file.Name = "button_Choes_file";
             this.button_Choes_file.Size = new System.Drawing.Size(125, 23);
             this.button_Choes_file.TabIndex = 6;
@@ -102,24 +104,32 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.label_File_Name);
+            this.panel1.Controls.Add(this.button_Choes_file);
+            this.panel1.Controls.Add(this.label_Path);
+            this.panel1.Controls.Add(this.textBox_extension);
+            this.panel1.Controls.Add(this.textBox_Path);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.textBox_File_Name);
+            this.panel1.Location = new System.Drawing.Point(896, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(571, 213);
+            this.panel1.TabIndex = 7;
             // 
             // Form_Class_Open_File_Dialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1023, 704);
-            this.Controls.Add(this.button_Choes_file);
-            this.Controls.Add(this.textBox_extension);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox_File_Name);
-            this.Controls.Add(this.label_File_Name);
-            this.Controls.Add(this.textBox_Path);
-            this.Controls.Add(this.label_Path);
+            this.ClientSize = new System.Drawing.Size(1508, 704);
+            this.Controls.Add(this.panel1);
             this.Name = "Form_Class_Open_File_Dialog";
             this.Text = "Form_Class_Open_File_Dialog";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -133,5 +143,6 @@
         private System.Windows.Forms.TextBox textBox_extension;
         private System.Windows.Forms.Button button_Choes_file;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Panel panel1;
     }
 }

@@ -8,16 +8,16 @@ namespace c_sharp
 {
     class operators
     {
-//        Operator precedence and associativity
-//The following list orders arithmetic operators starting from the highest precedence to the lowest:
+        //        Operator precedence and associativity
+        //The following list orders arithmetic operators starting from the highest precedence to the lowest:
 
-//Postfix increment x++ and decrement x-- operators
-//Prefix increment ++x and decrement --x and unary + and - operators
-//Multiplicative*, /, and % operators
-//Additive + and - operators
+        //Postfix increment x++ and decrement x-- operators
+        //Prefix increment ++x and decrement --x and unary + and - operators
+        //Multiplicative*, /, and % operators
+        //Additive + and - operators
 
 
-        public void Arithmetic()
+        public static void Arithmetic()
         {
             int i = 3;
             Console.WriteLine("int i = 3;");
@@ -77,7 +77,7 @@ namespace c_sharp
             a1 %= 3;
             Console.WriteLine(a1);  // output: 2
         }
-        public void logical()
+        public static void logical()
         {
 
             Console.WriteLine("Logical negation operator !");
@@ -105,9 +105,9 @@ namespace c_sharp
            //----------------------------------------------------------------------------------
 
         }
-        public void Bitwise_shift()
+        public static void Bitwise_shift()
         { }
-        public void Comparison()
+        public static void Comparison()
         {
             Console.WriteLine(7.0 < 5.1);   // output: False
             Console.WriteLine(7.0 > 5.1);   // output: True
@@ -115,14 +115,14 @@ namespace c_sharp
             Console.WriteLine(7.0 >= 5.1);   // output: True
             Console.WriteLine(5 == 5);       // output: True
             Console.WriteLine(5 != 5);        // output: False    
-        }       
-        public void access()
+        }
+        public static void access()
         { }
-        public void Equality()
+        public static void Equality()
         { }
-        public void Type_testing()
+        public static void Type_testing()
         { }
-        public void Pointer()
+        public static void Pointer()
         { }
         
        

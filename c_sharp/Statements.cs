@@ -10,14 +10,14 @@ namespace c_sharp
 
     {
        
-        public void my_if()
+        public static void my_if()
         {
             if (true)
             {
                 Console.WriteLine("my_if");
             }
         }
-        public void my_if_else()
+        public static void my_if_else()
         {
             int x = 2;
             int y = 2;
@@ -41,7 +41,7 @@ namespace c_sharp
             }
             
         }
-        public void my_switch()     
+        public static void my_switch()     
         {
             int n = 1;
             switch (n)
@@ -57,7 +57,7 @@ namespace c_sharp
                     break;
             }
         }
-        static void WhileStatement(string[] args)
+        public static void WhileStatement(string[] args)
         {
             int i = 0;
             while (i < args.Length)
@@ -66,7 +66,7 @@ namespace c_sharp
                 i++;
             }
         }
-        static void DoStatement(string[] args)
+        public static void DoStatement(string[] args)
         {
             string s;
             do
@@ -75,21 +75,21 @@ namespace c_sharp
                 Console.WriteLine(s);
             } while (!string.IsNullOrEmpty(s));
         }
-        static void ForStatement(string[] args)
+        public static void ForStatement(string[] args)
         {
             for (int i = 0; i < args.Length; i++)
             {
                 Console.WriteLine(args[i]);
             }
         }
-        static void ForEachStatement(string[] args)
+        public static void ForEachStatement(string[] args)
         {
             foreach (string s in args)
             {
                 Console.WriteLine(s);
             }
         }
-        static void BreakStatement(string[] args)
+        public static void BreakStatement(string[] args)
         {
             while (true)
             {
@@ -99,7 +99,7 @@ namespace c_sharp
                 Console.WriteLine(s);
             }
         }
-        static void ContinueStatement(string[] args)
+        public static void ContinueStatement(string[] args)
         {
             for (int i = 0; i < args.Length; i++)
             {
@@ -108,7 +108,7 @@ namespace c_sharp
                 Console.WriteLine(args[i]);
             }
         }
-        static void GoToStatement(string[] args)
+        public static void GoToStatement(string[] args)
         {
             byte i = 0;
             goto check;

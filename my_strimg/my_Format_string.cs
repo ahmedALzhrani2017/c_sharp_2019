@@ -14,7 +14,7 @@ namespace my_strimg
             string id = "115";
             string name = "ahmed";
             string last_name = "al zahrani";
-            Console.WriteLine("id\t{0:0000}\nneme\t{1}\nlastnema{2}", id, name, last_name);
+            Console.WriteLine("id\t{0}\nneme\t{1}\nlastnema{2}", id, name, last_name);
         }
         public static void my_function_string_format_2()
         {

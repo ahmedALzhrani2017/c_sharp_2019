@@ -8,7 +8,7 @@ namespace c_sharp
 {
     class my_convert
     {
-       public static void _Parse()
+        public static void _Parse()
         {
             string string_number = "2";
             int convert_string_to_number = int.Parse(string_number);
