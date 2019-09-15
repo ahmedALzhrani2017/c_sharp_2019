@@ -114,5 +114,11 @@ namespace Forms_Basics
             Form_class_my_toolTip show_My_ToolTip = new Form_class_my_toolTip();
             show_My_ToolTip.ShowDialog();
         }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            Form_class_my_Color_Dialog show_My_Color_Dialog = new Form_class_my_Color_Dialog();
+            show_My_Color_Dialog.ShowDialog();
+        }
     }
 }

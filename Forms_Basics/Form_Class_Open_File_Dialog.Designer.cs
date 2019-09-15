@@ -37,6 +37,16 @@
             this.button_Choes_file = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button_Delete = new System.Windows.Forms.Button();
+            this.button_File_Create = new System.Windows.Forms.Button();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
+            this.button_Move = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -93,11 +103,11 @@
             // 
             // button_Choes_file
             // 
-            this.button_Choes_file.Location = new System.Drawing.Point(153, 165);
+            this.button_Choes_file.Location = new System.Drawing.Point(24, 165);
             this.button_Choes_file.Name = "button_Choes_file";
             this.button_Choes_file.Size = new System.Drawing.Size(125, 23);
             this.button_Choes_file.TabIndex = 6;
-            this.button_Choes_file.Text = "Choes file";
+            this.button_Choes_file.Text = "openFileDialog";
             this.button_Choes_file.UseVisualStyleBackColor = true;
             this.button_Choes_file.Click += new System.EventHandler(this.Button_Choes_file_Click);
             // 
@@ -107,6 +117,11 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button_Move);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button_Delete);
+            this.panel1.Controls.Add(this.button_File_Create);
             this.panel1.Controls.Add(this.label_File_Name);
             this.panel1.Controls.Add(this.button_Choes_file);
             this.panel1.Controls.Add(this.label_Path);
@@ -119,17 +134,102 @@
             this.panel1.Size = new System.Drawing.Size(571, 213);
             this.panel1.TabIndex = 7;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(317, 164);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "copy";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.COPY_Click);
+            // 
+            // button_Delete
+            // 
+            this.button_Delete.Location = new System.Drawing.Point(236, 165);
+            this.button_Delete.Name = "button_Delete";
+            this.button_Delete.Size = new System.Drawing.Size(75, 23);
+            this.button_Delete.TabIndex = 8;
+            this.button_Delete.Text = "Delete";
+            this.button_Delete.UseVisualStyleBackColor = true;
+            this.button_Delete.Click += new System.EventHandler(this.Delete_Click);
+            // 
+            // button_File_Create
+            // 
+            this.button_File_Create.Location = new System.Drawing.Point(155, 164);
+            this.button_File_Create.Name = "button_File_Create";
+            this.button_File_Create.Size = new System.Drawing.Size(75, 24);
+            this.button_File_Create.TabIndex = 7;
+            this.button_File_Create.Text = "File_Create";
+            this.button_File_Create.UseVisualStyleBackColor = true;
+            this.button_File_Create.Click += new System.EventHandler(this.File_Create_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(1149, 338);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(187, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "if (System.IO.File.Exists(string path))";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(982, 341);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(116, 13);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "File.Exists(String path)";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(982, 368);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(119, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "File.Delete(String path)";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(398, 164);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click_1);
+            // 
+            // openFileDialog2
+            // 
+            this.openFileDialog2.FileName = "openFileDialog2";
+            // 
+            // button_Move
+            // 
+            this.button_Move.Location = new System.Drawing.Point(480, 164);
+            this.button_Move.Name = "button_Move";
+            this.button_Move.Size = new System.Drawing.Size(75, 23);
+            this.button_Move.TabIndex = 11;
+            this.button_Move.Text = " Move";
+            this.button_Move.UseVisualStyleBackColor = true;
+            this.button_Move.Click += new System.EventHandler(this.Button_Move_Click);
+            // 
             // Form_Class_Open_File_Dialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1508, 704);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Name = "Form_Class_Open_File_Dialog";
             this.Text = "Form_Class_Open_File_Dialog";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -144,5 +244,15 @@
         private System.Windows.Forms.Button button_Choes_file;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button_File_Create;
+        private System.Windows.Forms.Button button_Delete;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog2;
+        private System.Windows.Forms.Button button_Move;
     }
 }

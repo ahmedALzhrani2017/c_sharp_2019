@@ -62,5 +62,46 @@ namespace Forms_Basics.Method
         {
             pictureBox2.Image = Clipboard.GetImage();
         }
+
+        private void Button_copy_file_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Title = "افتح";
+            openFileDialog1.InitialDirectory = "C:\\copy";
+            openFileDialog1.FileName = "";
+            //openFileDialog1.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
+            //openFileDialog1.Filter = "PNG Image|*.png";
+            //openFileDialog1.Filter = "Image files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png) | *.jpg; *.jpeg; *.jpe; *.jfif; *.png";
+            //openFileDialog1.Filter = "Office Files|*.doc;*.xls;*.ppt";
+
+            string f1 = "";
+            string f2 = "";
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                if (System.IO.File.Exists(openFileDialog1.FileName))
+                {
+
+                    f1 = openFileDialog1.FileName;
+           
+                }
+                else
+                {
+                    MessageBox.Show("xxxxxxx");
+                    return;
+
+                }               
+            }
+            if (saveFileDialog1.ShowDialog()==DialogResult.OK)
+            {
+                f2 = saveFileDialog1.FileName;
+            }
+            else
+            {
+
+                MessageBox.Show("aaaaaa");
+                return;
+            }
+            System.IO.File.Copy(f1, f2);
+        }
     }
+    
 }

@@ -58,6 +58,12 @@
     <Compile Include="Form_class_my_CHECK_LIST_BOX.Designer.cs">
       <DependentUpon>Form_class_my_CHECK_LIST_BOX.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_class_my_Color_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_class_my_Color_Dialog.Designer.cs">
+      <DependentUpon>Form_class_my_Color_Dialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_class_my_combo_box.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_class_my_CHECK_LIST_BOX.resx">
       <DependentUpon>Form_class_my_CHECK_LIST_BOX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_class_my_Color_Dialog.resx">
+      <DependentUpon>Form_class_my_Color_Dialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_class_my_combo_box.resx">
       <DependentUpon>Form_class_my_combo_box.cs</DependentUpon>

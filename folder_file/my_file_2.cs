@@ -16,7 +16,10 @@ namespace folder_file
 
                 File.Create(path).Close();
             }
-
+            else
+            {
+                Console.WriteLine("الملف موجود");
+            }
 
         }
         public static void CreateEmptyFile_group(string[] paths)

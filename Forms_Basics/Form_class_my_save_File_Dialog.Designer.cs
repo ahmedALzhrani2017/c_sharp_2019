@@ -30,12 +30,12 @@
         {
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.button_save = new System.Windows.Forms.Button();
-            this.textBox1_save = new System.Windows.Forms.TextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // button_save
             // 
-            this.button_save.Location = new System.Drawing.Point(12, 22);
+            this.button_save.Location = new System.Drawing.Point(60, 182);
             this.button_save.Name = "button_save";
             this.button_save.Size = new System.Drawing.Size(75, 23);
             this.button_save.TabIndex = 0;
@@ -43,24 +43,24 @@
             this.button_save.UseVisualStyleBackColor = true;
             this.button_save.Click += new System.EventHandler(this.Button_save_Click);
             // 
-            // textBox1_save
+            // richTextBox1
             // 
-            this.textBox1_save.Location = new System.Drawing.Point(110, 25);
-            this.textBox1_save.Name = "textBox1_save";
-            this.textBox1_save.Size = new System.Drawing.Size(276, 20);
-            this.textBox1_save.TabIndex = 1;
+            this.richTextBox1.Location = new System.Drawing.Point(2, -2);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(205, 178);
+            this.richTextBox1.TabIndex = 1;
+            this.richTextBox1.Text = "ahmed hassan ahmed\nalzhrani";
             // 
             // Form_class_my_save_File_Dialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox1_save);
+            this.ClientSize = new System.Drawing.Size(1216, 555);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button_save);
             this.Name = "Form_class_my_save_File_Dialog";
             this.Text = "Form_class_save_File_Dialog";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -68,6 +68,6 @@
 
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.Button button_save;
-        private System.Windows.Forms.TextBox textBox1_save;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }

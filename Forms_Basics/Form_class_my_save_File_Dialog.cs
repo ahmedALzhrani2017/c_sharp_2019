@@ -22,10 +22,18 @@ namespace Forms_Basics
         {
             saveFileDialog1.Title = "my save";
             saveFileDialog1.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            //saveFileDialog1.FileName = textBox1.Text + ".txt";
 
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
-
+                string c = saveFileDialog1.FileName;
+                if (Path.GetExtension(saveFileDialog1.FileName).ToLower() != ".txt")
+                {
+                    c += ".txt";
+                }
+                StreamWriter sw = new StreamWriter(c);
+                sw.WriteLine(richTextBox1.Text);
+                sw.Close();
             }
         }
     }

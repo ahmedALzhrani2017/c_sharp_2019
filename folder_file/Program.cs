@@ -16,9 +16,12 @@ namespace folder_file
             //my_file.my_using_delete_file();
             //Console.WriteLine("-----------------------------------");
             //string nema_file = "text.txt";
-            my_file_2.CreateEmptyFile("nema_file");
+            my_file_2.CreateEmptyFile("nema_file.txt");
             //    Console.WriteLine("-----------------------------------");
             //    my_file_2.CreateEmptyFile_group_1();
-        }   //}
+
+
+            Console.ReadKey();
+        }   
     }
 }
