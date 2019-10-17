@@ -37,6 +37,7 @@
             this.checkedListBox4 = new System.Windows.Forms.CheckedListBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lab_add_item = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // checkedListBox1
@@ -52,6 +53,7 @@
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(120, 64);
             this.checkedListBox1.TabIndex = 0;
+            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.CheckedListBox1_SelectedIndexChanged);
             // 
             // checkedListBox2
             // 
@@ -72,7 +74,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(138, 115);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(212, 13);
+            this.label1.Size = new System.Drawing.Size(213, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "this.checkedListBox1.CheckOnClick = true;";
             // 
@@ -134,15 +136,26 @@
             this.lab_add_item.AutoSize = true;
             this.lab_add_item.Location = new System.Drawing.Point(423, 260);
             this.lab_add_item.Name = "lab_add_item";
-            this.lab_add_item.Size = new System.Drawing.Size(213, 13);
+            this.lab_add_item.Size = new System.Drawing.Size(222, 13);
             this.lab_add_item.TabIndex = 5;
             this.lab_add_item.Text = "checkedListBox4.Items.Add(textBox1.Text);";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(989, 42);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // Form_class_my_CHECK_LIST_BOX
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1085, 634);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lab_add_item);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.but_);
@@ -155,7 +168,6 @@
             this.IsMdiContainer = true;
             this.Name = "Form_class_my_CHECK_LIST_BOX";
             this.Text = "Form_class_my_CHECK_LIST_BOX";
-           
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,5 +184,6 @@
         private System.Windows.Forms.CheckedListBox checkedListBox4;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lab_add_item;
+        private System.Windows.Forms.Button button1;
     }
 }
